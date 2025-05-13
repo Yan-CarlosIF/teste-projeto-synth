@@ -8,10 +8,10 @@ export default function Card() {
   return (
     <button
       onClick={() => redirect("/inspect")}
-      className="w-1/3 flex flex-col border my-20 cursor-pointer transition-colors ease-in-out duration-300 border-black items-center justify-center rounded-2xl hover:bg-teal-600 hover:border-teal-600"
+      className="w-1/3 flex flex-col border-2 my-20 cursor-pointer transition-colors ease-in-out duration-300 border-[#313a49b8] items-center justify-center rounded-2xl hover:bg-teal-600 hover:border-teal-600"
     >
       <Image src={Imagee} className="w-1/3" alt="" />
-      <h1>Projeto</h1>
+      <h1 className="mt-10">Projeto</h1>
       <span>Modelo de alguma coisa</span>
     </button>
   );

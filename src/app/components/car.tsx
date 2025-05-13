@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function CarModelo(props: any) {
-  const gltf = useGLTF("/car/car.gltf");
+  const { scene } = useGLTF("/car/car.gltf");
 
-  return <primitive object={gltf.scene} {...props} />;
+  const clonedScene = useMemo(() => scene.clone(), [scene]);
+
+  return <primitive object={clonedScene} {...props} />;
 }
