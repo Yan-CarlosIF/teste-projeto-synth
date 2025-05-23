@@ -36,7 +36,7 @@ export default function Informations() {
     <div
       ref={ref}
       id="info"
-      className="my-30 justify-center opacity-0 transition-opacity flex px-36"
+      className="my-30 justify-center items-center opacity-0 transition-opacity flex px-16 xl:px-36"
     >
       <div className="flex w-3/4 flex-col gap-10">
         <h1 className="font-semibold text-4xl">

@@ -12,9 +12,7 @@ export default function Home() {
         <span className="text-gray-300">
           Inspecione modelos 3D e faça vídeos
         </span>
-        <div className="flex justify-center items-center gap-50">
-          <Card />
-          <Card />
+        <div className="flex justify-center my-20 items-center gap-50">
           <Card />
         </div>
       </nav>

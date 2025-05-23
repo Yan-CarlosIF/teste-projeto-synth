@@ -45,7 +45,7 @@ export default function Scene({
         }
       );
     }
-  }, []);
+  }, [triggerRef]);
 
   // Adiciona o alvo ao grafo da cena
   useEffect(() => {
